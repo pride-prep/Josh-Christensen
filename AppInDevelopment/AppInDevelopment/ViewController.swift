@@ -21,9 +21,6 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
-    
     var PeanutOnOff = "on"
     var TreenutOnOff = "on"
     var VegetarianOnOff = "on"
