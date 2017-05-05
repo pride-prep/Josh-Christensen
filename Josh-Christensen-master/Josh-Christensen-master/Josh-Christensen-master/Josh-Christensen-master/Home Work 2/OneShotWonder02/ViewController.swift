@@ -28,11 +28,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var ButtonChoice1: UIButton!
     
     @IBAction func StartButton(_ sender: UIButton) {
-        ButtonChoice1.setTitle("2", for: .normal)
-        ButtonChoice2.setTitle("1", for: .normal)
+        ButtonChoice1.setTitle("Continue Struggling", for: .normal)
+        ButtonChoice2.setTitle("Roll out", for: .normal)
         Label01.text = "You awake tied up in a plane, sitting by a hole in the plane."
         Label02.text = "You start struggling."
-        Label03.text = "What do you want to do: 1) Roll out of the plane. 2) Continue struggling. [1/2]? :  "
+        Label03.text = "What do you want to do?"
     }
     @IBAction func ButtonChoice1(_ sender: Any) {
         Label04.text = "The wind whistles past your face.            Splat!!!!                                                                       You are dead!!!!!"

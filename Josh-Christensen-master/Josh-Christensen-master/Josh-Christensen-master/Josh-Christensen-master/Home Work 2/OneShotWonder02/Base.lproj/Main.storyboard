@@ -38,17 +38,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUJ-FW-ciu">
-                                <rect key="frame" x="16" y="254" width="99" height="92"/>
+                                <rect key="frame" x="16" y="254" width="117" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <connections>
                                     <action selector="ButtonChoice1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GPB-kF-omZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCF-ub-cFg">
-                                <rect key="frame" x="261" y="254" width="98" height="92"/>
+                                <rect key="frame" x="186" y="254" width="173" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <connections>
                                     <action selector="ButtonChoice2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tOH-xW-9hA"/>
                                 </connections>

@@ -49,22 +49,7 @@ class ViewController: UIViewController {
     @IBAction func ShuffleButton(_ sender: Any) {
         if MonthTextField.text == "January" {
             self.performSegue(withIdentifier: "Segueway01", sender: self)
-        } else if MonthTextField.text == "Febuary" {
-            
-        } else if MonthTextField.text == "March" {
-            
-        } else if MonthTextField.text == "April" {
-            
-        } else if MonthTextField.text == "May" {
-            
-        } else if MonthTextField.text == "June" {
-            
-        } else if MonthTextField.text == "July" {
-            
-        } else if MonthTextField.text == "August" {
-            
         }
-        
     }
     
 }

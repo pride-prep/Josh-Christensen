@@ -301,6 +301,7 @@
 				3FBC32901EB9132200576EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

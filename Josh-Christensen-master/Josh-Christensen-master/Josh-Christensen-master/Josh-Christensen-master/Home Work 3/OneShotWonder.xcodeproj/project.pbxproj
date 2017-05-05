@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FBC32801EB9132200576EB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC327F1EB9132200576EB8 /* AppDelegate.swift */; };
-		3FBC32821EB9132200576EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC32811EB9132200576EB8 /* ViewController.swift */; };
-		3FBC32851EB9132200576EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC32831EB9132200576EB8 /* Main.storyboard */; };
-		3FBC32871EB9132200576EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC32861EB9132200576EB8 /* Assets.xcassets */; };
-		3FBC328A1EB9132200576EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC32881EB9132200576EB8 /* LaunchScreen.storyboard */; };
+		3F591DB81EB7C89E0033F29F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F591DB71EB7C89E0033F29F /* AppDelegate.swift */; };
+		3F591DBA1EB7C89E0033F29F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F591DB91EB7C89E0033F29F /* ViewController.swift */; };
+		3F591DBD1EB7C89E0033F29F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F591DBB1EB7C89E0033F29F /* Main.storyboard */; };
+		3F591DBF1EB7C89E0033F29F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F591DBE1EB7C89E0033F29F /* Assets.xcassets */; };
+		3F591DC21EB7C89E0033F29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F591DC01EB7C89E0033F29F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FBC327C1EB9132200576EB8 /* OneShotWonder02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneShotWonder02.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FBC327F1EB9132200576EB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FBC32811EB9132200576EB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FBC32841EB9132200576EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FBC32861EB9132200576EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FBC32891EB9132200576EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3FBC328B1EB9132200576EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F591DB41EB7C89E0033F29F /* OneShotWonder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneShotWonder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F591DB71EB7C89E0033F29F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F591DB91EB7C89E0033F29F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F591DBC1EB7C89E0033F29F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F591DBE1EB7C89E0033F29F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F591DC11EB7C89E0033F29F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F591DC31EB7C89E0033F29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FBC32791EB9132200576EB8 /* Frameworks */ = {
+		3F591DB11EB7C89E0033F29F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FBC32731EB9132200576EB8 = {
+		3F591DAB1EB7C89E0033F29F = {
 			isa = PBXGroup;
 			children = (
-				3FBC327E1EB9132200576EB8 /* OneShotWonder02 */,
-				3FBC327D1EB9132200576EB8 /* Products */,
+				3F591DB61EB7C89E0033F29F /* OneShotWonder */,
+				3F591DB51EB7C89E0033F29F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3FBC327D1EB9132200576EB8 /* Products */ = {
+		3F591DB51EB7C89E0033F29F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FBC327C1EB9132200576EB8 /* OneShotWonder02.app */,
+				3F591DB41EB7C89E0033F29F /* OneShotWonder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FBC327E1EB9132200576EB8 /* OneShotWonder02 */ = {
+		3F591DB61EB7C89E0033F29F /* OneShotWonder */ = {
 			isa = PBXGroup;
 			children = (
-				3FBC327F1EB9132200576EB8 /* AppDelegate.swift */,
-				3FBC32811EB9132200576EB8 /* ViewController.swift */,
-				3FBC32831EB9132200576EB8 /* Main.storyboard */,
-				3FBC32861EB9132200576EB8 /* Assets.xcassets */,
-				3FBC32881EB9132200576EB8 /* LaunchScreen.storyboard */,
-				3FBC328B1EB9132200576EB8 /* Info.plist */,
+				3F591DB71EB7C89E0033F29F /* AppDelegate.swift */,
+				3F591DB91EB7C89E0033F29F /* ViewController.swift */,
+				3F591DBB1EB7C89E0033F29F /* Main.storyboard */,
+				3F591DBE1EB7C89E0033F29F /* Assets.xcassets */,
+				3F591DC01EB7C89E0033F29F /* LaunchScreen.storyboard */,
+				3F591DC31EB7C89E0033F29F /* Info.plist */,
 			);
-			path = OneShotWonder02;
+			path = OneShotWonder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FBC327B1EB9132200576EB8 /* OneShotWonder02 */ = {
+		3F591DB31EB7C89E0033F29F /* OneShotWonder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FBC328E1EB9132200576EB8 /* Build configuration list for PBXNativeTarget "OneShotWonder02" */;
+			buildConfigurationList = 3F591DC61EB7C89E0033F29F /* Build configuration list for PBXNativeTarget "OneShotWonder" */;
 			buildPhases = (
-				3FBC32781EB9132200576EB8 /* Sources */,
-				3FBC32791EB9132200576EB8 /* Frameworks */,
-				3FBC327A1EB9132200576EB8 /* Resources */,
+				3F591DB01EB7C89E0033F29F /* Sources */,
+				3F591DB11EB7C89E0033F29F /* Frameworks */,
+				3F591DB21EB7C89E0033F29F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OneShotWonder02;
-			productName = OneShotWonder02;
-			productReference = 3FBC327C1EB9132200576EB8 /* OneShotWonder02.app */;
+			name = OneShotWonder;
+			productName = OneShotWonder;
+			productReference = 3F591DB41EB7C89E0033F29F /* OneShotWonder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FBC32741EB9132200576EB8 /* Project object */ = {
+		3F591DAC1EB7C89E0033F29F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Student;
 				TargetAttributes = {
-					3FBC327B1EB9132200576EB8 = {
+					3F591DB31EB7C89E0033F29F = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3FBC32771EB9132200576EB8 /* Build configuration list for PBXProject "OneShotWonder02" */;
+			buildConfigurationList = 3F591DAF1EB7C89E0033F29F /* Build configuration list for PBXProject "OneShotWonder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 3FBC32731EB9132200576EB8;
-			productRefGroup = 3FBC327D1EB9132200576EB8 /* Products */;
+			mainGroup = 3F591DAB1EB7C89E0033F29F;
+			productRefGroup = 3F591DB51EB7C89E0033F29F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FBC327B1EB9132200576EB8 /* OneShotWonder02 */,
+				3F591DB31EB7C89E0033F29F /* OneShotWonder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FBC327A1EB9132200576EB8 /* Resources */ = {
+		3F591DB21EB7C89E0033F29F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBC328A1EB9132200576EB8 /* LaunchScreen.storyboard in Resources */,
-				3FBC32871EB9132200576EB8 /* Assets.xcassets in Resources */,
-				3FBC32851EB9132200576EB8 /* Main.storyboard in Resources */,
+				3F591DC21EB7C89E0033F29F /* LaunchScreen.storyboard in Resources */,
+				3F591DBF1EB7C89E0033F29F /* Assets.xcassets in Resources */,
+				3F591DBD1EB7C89E0033F29F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FBC32781EB9132200576EB8 /* Sources */ = {
+		3F591DB01EB7C89E0033F29F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBC32821EB9132200576EB8 /* ViewController.swift in Sources */,
-				3FBC32801EB9132200576EB8 /* AppDelegate.swift in Sources */,
+				3F591DBA1EB7C89E0033F29F /* ViewController.swift in Sources */,
+				3F591DB81EB7C89E0033F29F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3FBC32831EB9132200576EB8 /* Main.storyboard */ = {
+		3F591DBB1EB7C89E0033F29F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FBC32841EB9132200576EB8 /* Base */,
+				3F591DBC1EB7C89E0033F29F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3FBC32881EB9132200576EB8 /* LaunchScreen.storyboard */ = {
+		3F591DC01EB7C89E0033F29F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FBC32891EB9132200576EB8 /* Base */,
+				3F591DC11EB7C89E0033F29F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3FBC328C1EB9132200576EB8 /* Debug */ = {
+		3F591DC41EB7C89E0033F29F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		3FBC328D1EB9132200576EB8 /* Release */ = {
+		3F591DC51EB7C89E0033F29F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,25 +258,25 @@
 			};
 			name = Release;
 		};
-		3FBC328F1EB9132200576EB8 /* Debug */ = {
+		3F591DC71EB7C89E0033F29F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = OneShotWonder02/Info.plist;
+				INFOPLIST_FILE = OneShotWonder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.prideprep.OneShotWonder02;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prideprep.OneShotWonder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		3FBC32901EB9132200576EB8 /* Release */ = {
+		3F591DC81EB7C89E0033F29F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = OneShotWonder02/Info.plist;
+				INFOPLIST_FILE = OneShotWonder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.prideprep.OneShotWonder02;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prideprep.OneShotWonder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,24 +285,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FBC32771EB9132200576EB8 /* Build configuration list for PBXProject "OneShotWonder02" */ = {
+		3F591DAF1EB7C89E0033F29F /* Build configuration list for PBXProject "OneShotWonder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FBC328C1EB9132200576EB8 /* Debug */,
-				3FBC328D1EB9132200576EB8 /* Release */,
+				3F591DC41EB7C89E0033F29F /* Debug */,
+				3F591DC51EB7C89E0033F29F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FBC328E1EB9132200576EB8 /* Build configuration list for PBXNativeTarget "OneShotWonder02" */ = {
+		3F591DC61EB7C89E0033F29F /* Build configuration list for PBXNativeTarget "OneShotWonder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FBC328F1EB9132200576EB8 /* Debug */,
-				3FBC32901EB9132200576EB8 /* Release */,
+				3F591DC71EB7C89E0033F29F /* Debug */,
+				3F591DC81EB7C89E0033F29F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3FBC32741EB9132200576EB8 /* Project object */;
+	rootObject = 3F591DAC1EB7C89E0033F29F /* Project object */;
 }

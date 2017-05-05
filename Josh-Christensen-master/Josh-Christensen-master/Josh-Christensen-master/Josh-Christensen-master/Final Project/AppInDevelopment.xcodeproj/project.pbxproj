@@ -14,7 +14,7 @@
 		3F0399EA1EAFDD8E0004F5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0399E81EAFDD8E0004F5A3 /* LaunchScreen.storyboard */; };
 		3F0399F51EAFDD8F0004F5A3 /* AppInDevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0399F41EAFDD8F0004F5A3 /* AppInDevelopmentTests.swift */; };
 		3F039A001EAFDD8F0004F5A3 /* AppInDevelopmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0399FF1EAFDD8F0004F5A3 /* AppInDevelopmentUITests.swift */; };
-		3F384A2A1EBCF398005C84A6 /* January.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F384A291EBCF398005C84A6 /* January.swift */; };
+		3F557E941EBBBD8B001FC526 /* Jan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F557E931EBBBD8B001FC526 /* Jan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		3F0399FB1EAFDD8F0004F5A3 /* AppInDevelopmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppInDevelopmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0399FF1EAFDD8F0004F5A3 /* AppInDevelopmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInDevelopmentUITests.swift; sourceTree = "<group>"; };
 		3F039A011EAFDD8F0004F5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F384A291EBCF398005C84A6 /* January.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = January.swift; sourceTree = "<group>"; };
+		3F557E931EBBBD8B001FC526 /* Jan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Jan.swift; path = ../Jan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				3F0399DF1EAFDD8E0004F5A3 /* AppDelegate.swift */,
 				3F0399E11EAFDD8E0004F5A3 /* ViewController.swift */,
-				3F384A291EBCF398005C84A6 /* January.swift */,
+				3F557E931EBBBD8B001FC526 /* Jan.swift */,
 				3F0399E31EAFDD8E0004F5A3 /* Main.storyboard */,
 				3F0399E61EAFDD8E0004F5A3 /* Assets.xcassets */,
 				3F0399E81EAFDD8E0004F5A3 /* LaunchScreen.storyboard */,
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F384A2A1EBCF398005C84A6 /* January.swift in Sources */,
 				3F0399E21EAFDD8E0004F5A3 /* ViewController.swift in Sources */,
+				3F557E941EBBBD8B001FC526 /* Jan.swift in Sources */,
 				3F0399E01EAFDD8E0004F5A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
