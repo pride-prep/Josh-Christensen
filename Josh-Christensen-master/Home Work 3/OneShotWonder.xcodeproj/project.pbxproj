@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F5547651EC39E31008B4A2C /* HiddenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5547641EC39E31008B4A2C /* HiddenPage.swift */; };
-		3F5547671EC3A132008B4A2C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5547661EC3A132008B4A2C /* ViewController2.swift */; };
 		3F591DB81EB7C89E0033F29F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F591DB71EB7C89E0033F29F /* AppDelegate.swift */; };
 		3F591DBA1EB7C89E0033F29F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F591DB91EB7C89E0033F29F /* ViewController.swift */; };
 		3F591DBD1EB7C89E0033F29F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F591DBB1EB7C89E0033F29F /* Main.storyboard */; };
@@ -17,8 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F5547641EC39E31008B4A2C /* HiddenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenPage.swift; sourceTree = "<group>"; };
-		3F5547661EC3A132008B4A2C /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		3F591DB41EB7C89E0033F29F /* OneShotWonder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneShotWonder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F591DB71EB7C89E0033F29F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F591DB91EB7C89E0033F29F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,8 +56,6 @@
 			children = (
 				3F591DB71EB7C89E0033F29F /* AppDelegate.swift */,
 				3F591DB91EB7C89E0033F29F /* ViewController.swift */,
-				3F5547661EC3A132008B4A2C /* ViewController2.swift */,
-				3F5547641EC39E31008B4A2C /* HiddenPage.swift */,
 				3F591DBB1EB7C89E0033F29F /* Main.storyboard */,
 				3F591DBE1EB7C89E0033F29F /* Assets.xcassets */,
 				3F591DC01EB7C89E0033F29F /* LaunchScreen.storyboard */,
@@ -143,8 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F591DBA1EB7C89E0033F29F /* ViewController.swift in Sources */,
-				3F5547671EC3A132008B4A2C /* ViewController2.swift in Sources */,
-				3F5547651EC39E31008B4A2C /* HiddenPage.swift in Sources */,
 				3F591DB81EB7C89E0033F29F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +301,6 @@
 				3F591DC81EB7C89E0033F29F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

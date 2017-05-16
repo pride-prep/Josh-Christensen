@@ -15,6 +15,17 @@
 		3F0399F51EAFDD8F0004F5A3 /* AppInDevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0399F41EAFDD8F0004F5A3 /* AppInDevelopmentTests.swift */; };
 		3F039A001EAFDD8F0004F5A3 /* AppInDevelopmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0399FF1EAFDD8F0004F5A3 /* AppInDevelopmentUITests.swift */; };
 		3F384A2A1EBCF398005C84A6 /* January.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F384A291EBCF398005C84A6 /* January.swift */; };
+		3F67F5251ECA393D00912D3E /* February.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F5241ECA393D00912D3E /* February.swift */; };
+		3F67F5271ECA396100912D3E /* March.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F5261ECA396100912D3E /* March.swift */; };
+		3F67F5291ECA399C00912D3E /* April.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F5281ECA399C00912D3E /* April.swift */; };
+		3F67F52B1ECA39C400912D3E /* May.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F52A1ECA39C400912D3E /* May.swift */; };
+		3F67F52D1ECA39EF00912D3E /* June.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F52C1ECA39EF00912D3E /* June.swift */; };
+		3F67F52F1ECA3A0100912D3E /* July.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F52E1ECA3A0100912D3E /* July.swift */; };
+		3F67F5311ECA3A1800912D3E /* August.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F5301ECA3A1800912D3E /* August.swift */; };
+		3F67F5331ECA3A3600912D3E /* September.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F5321ECA3A3600912D3E /* September.swift */; };
+		3F67F5351ECA3A4700912D3E /* October.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F5341ECA3A4700912D3E /* October.swift */; };
+		3F67F5371ECA3A5900912D3E /* November.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F5361ECA3A5900912D3E /* November.swift */; };
+		3F67F5391ECA3AAD00912D3E /* December.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67F5381ECA3AAD00912D3E /* December.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		3F0399FF1EAFDD8F0004F5A3 /* AppInDevelopmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInDevelopmentUITests.swift; sourceTree = "<group>"; };
 		3F039A011EAFDD8F0004F5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F384A291EBCF398005C84A6 /* January.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = January.swift; sourceTree = "<group>"; };
+		3F67F5241ECA393D00912D3E /* February.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = February.swift; sourceTree = "<group>"; };
+		3F67F5261ECA396100912D3E /* March.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = March.swift; sourceTree = "<group>"; };
+		3F67F5281ECA399C00912D3E /* April.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = April.swift; sourceTree = "<group>"; };
+		3F67F52A1ECA39C400912D3E /* May.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = May.swift; sourceTree = "<group>"; };
+		3F67F52C1ECA39EF00912D3E /* June.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = June.swift; sourceTree = "<group>"; };
+		3F67F52E1ECA3A0100912D3E /* July.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = July.swift; sourceTree = "<group>"; };
+		3F67F5301ECA3A1800912D3E /* August.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = August.swift; sourceTree = "<group>"; };
+		3F67F5321ECA3A3600912D3E /* September.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = September.swift; sourceTree = "<group>"; };
+		3F67F5341ECA3A4700912D3E /* October.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = October.swift; sourceTree = "<group>"; };
+		3F67F5361ECA3A5900912D3E /* November.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = November.swift; sourceTree = "<group>"; };
+		3F67F5381ECA3AAD00912D3E /* December.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = December.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +124,17 @@
 				3F0399DF1EAFDD8E0004F5A3 /* AppDelegate.swift */,
 				3F0399E11EAFDD8E0004F5A3 /* ViewController.swift */,
 				3F384A291EBCF398005C84A6 /* January.swift */,
+				3F67F5241ECA393D00912D3E /* February.swift */,
+				3F67F5261ECA396100912D3E /* March.swift */,
+				3F67F5281ECA399C00912D3E /* April.swift */,
+				3F67F52A1ECA39C400912D3E /* May.swift */,
+				3F67F52C1ECA39EF00912D3E /* June.swift */,
+				3F67F52E1ECA3A0100912D3E /* July.swift */,
+				3F67F5301ECA3A1800912D3E /* August.swift */,
+				3F67F5321ECA3A3600912D3E /* September.swift */,
+				3F67F5341ECA3A4700912D3E /* October.swift */,
+				3F67F5361ECA3A5900912D3E /* November.swift */,
+				3F67F5381ECA3AAD00912D3E /* December.swift */,
 				3F0399E31EAFDD8E0004F5A3 /* Main.storyboard */,
 				3F0399E61EAFDD8E0004F5A3 /* Assets.xcassets */,
 				3F0399E81EAFDD8E0004F5A3 /* LaunchScreen.storyboard */,
@@ -262,9 +295,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F67F5371ECA3A5900912D3E /* November.swift in Sources */,
 				3F384A2A1EBCF398005C84A6 /* January.swift in Sources */,
+				3F67F5251ECA393D00912D3E /* February.swift in Sources */,
+				3F67F5351ECA3A4700912D3E /* October.swift in Sources */,
 				3F0399E21EAFDD8E0004F5A3 /* ViewController.swift in Sources */,
+				3F67F52F1ECA3A0100912D3E /* July.swift in Sources */,
+				3F67F5391ECA3AAD00912D3E /* December.swift in Sources */,
 				3F0399E01EAFDD8E0004F5A3 /* AppDelegate.swift in Sources */,
+				3F67F5331ECA3A3600912D3E /* September.swift in Sources */,
+				3F67F5291ECA399C00912D3E /* April.swift in Sources */,
+				3F67F5311ECA3A1800912D3E /* August.swift in Sources */,
+				3F67F5271ECA396100912D3E /* March.swift in Sources */,
+				3F67F52B1ECA39C400912D3E /* May.swift in Sources */,
+				3F67F52D1ECA39EF00912D3E /* June.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
