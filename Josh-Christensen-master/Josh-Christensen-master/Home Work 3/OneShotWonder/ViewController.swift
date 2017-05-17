@@ -23,11 +23,6 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "Segueway01", sender: self)
     }
     
-    @IBAction func HiddenButton(_ sender: Any) {
-        self.performSegue(withIdentifier: "HiddenSegueway", sender: self)
-        
-    }
-    
 
 }
 

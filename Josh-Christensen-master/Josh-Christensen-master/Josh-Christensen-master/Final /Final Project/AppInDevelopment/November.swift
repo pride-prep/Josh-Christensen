@@ -1,14 +1,14 @@
 //
-//  January.swift
+//  November.swift
 //  AppInDevelopment
 //
-//  Created by Student on 5/5/17.
+//  Created by Student on 5/15/17.
 //  Copyright © 2017 josh. All rights reserved.
 //
 
 import UIKit
 
-class January: UIViewController {
+class November: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,7 @@ class January: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func BackButtonJan(_ sender: Any) {
-        
+    @IBAction func BackButton(_ sender: Any) {
     }
     
 }
