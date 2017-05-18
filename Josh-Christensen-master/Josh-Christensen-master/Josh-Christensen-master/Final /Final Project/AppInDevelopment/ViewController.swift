@@ -411,43 +411,34 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             VegetarianOnOff = "on"
         }
     }
-    @IBAction func ShuffleButton(_ sender: UIButton) {
-        
-        if PlaceHolder.text == "January" {
-            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
-        } else if PlaceHolder.text == "February" {
-            self.performSegue(withIdentifier: "SeguewayToFeb", sender: self)
-        } else if PlaceHolder.text == "March" {
-            self.performSegue(withIdentifier: "SeguewayToMar", sender: self)
-        } else if PlaceHolder.text == "April" {
-            self.performSegue(withIdentifier: "SeguewayToApr", sender: self)
-        } else if PlaceHolder.text == "May" {
-            self.performSegue(withIdentifier: "SeguewayToMay", sender: self)
-        } else if PlaceHolder.text == "June" {
-            self.performSegue(withIdentifier: "SeguewayToJun", sender: self)
-        } else if PlaceHolder.text == "July" {
-            self.performSegue(withIdentifier: "SeguewayToJul", sender: self)
-        } else if PlaceHolder.text == "August" {
-            self.performSegue(withIdentifier: "SeguewayToAug", sender: self)
-        } else if PlaceHolder.text == "September" {
-            self.performSegue(withIdentifier: "SeguewayToSep", sender: self)
-        } else if PlaceHolder.text == "October" {
-            self.performSegue(withIdentifier: "SeguewayToOct", sender: self)
-        } else if PlaceHolder.text == "November" {
-            self.performSegue(withIdentifier: "SeguewayToNov", sender: self)
-        } else if PlaceHolder.text == "December" {
-            self.performSegue(withIdentifier: "SeguewayToDec", sender: self)
-        }
-        
-        
-        
-        
-        
-        
-        
-        
-    
-    }
+//    @IBAction func ShuffleButton(_ sender: Any) {
+//        if PlaceHolder.text == "January" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "February" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "March" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "April" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "May" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "June" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "July" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "August" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "September" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "October" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "November" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        } else if PlaceHolder.text == "December" {
+//            self.performSegue(withIdentifier: "SeguewayToJan", sender: self)
+//        }
+//      
+//    }
 
 }
 

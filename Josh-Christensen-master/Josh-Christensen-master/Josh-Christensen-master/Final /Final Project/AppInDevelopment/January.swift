@@ -21,7 +21,7 @@ class January: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func BackButtonJan(_ sender: Any) {
-        
+        self.performSegue(withIdentifier: "SeguewayBackJan", sender: self)
     }
     
 }

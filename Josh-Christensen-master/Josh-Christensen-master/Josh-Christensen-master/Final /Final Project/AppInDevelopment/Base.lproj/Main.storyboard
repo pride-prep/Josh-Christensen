@@ -81,7 +81,7 @@
                                 <state key="normal" title="Shuffle!"/>
                                 <connections>
                                     <action selector="ShuffleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nn3-Sx-y6O"/>
-                                    <segue destination="i2c-DY-W9Y" kind="show" id="KIz-iA-0uf"/>
+                                    <segue destination="i2c-DY-W9Y" kind="show" identifier="SeguewayToJan" id="ZCc-Ow-Kir"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cte-2x-leQ">
@@ -97,17 +97,6 @@
                     <connections>
                         <outlet property="MonthPicker" destination="2OH-ZN-QSQ" id="kN4-rp-lod"/>
                         <outlet property="PlaceHolder" destination="cte-2x-leQ" id="k3e-o4-WzY"/>
-                        <segue destination="R1V-ej-seg" kind="show" identifier="SeguewayToFeb" id="oMa-Qk-1Qw"/>
-                        <segue destination="vVT-jF-JIK" kind="show" identifier="SeguewayToMar" id="zfD-o0-7Ux"/>
-                        <segue destination="MHl-2v-Wfs" kind="show" identifier="SeguewayToApr" id="4Lw-0F-bFX"/>
-                        <segue destination="Oaq-u9-248" kind="show" identifier="SeguewayToMay" id="bAU-TW-4Pd"/>
-                        <segue destination="kZY-BZ-tub" kind="show" identifier="SeguewayToJun" id="mPh-CV-zl6"/>
-                        <segue destination="oMs-g6-vVn" kind="show" identifier="SeguewayToJul" id="oPu-fH-jCo"/>
-                        <segue destination="yd0-H5-zzN" kind="show" identifier="SeguewayToAug" id="5IE-7I-AQo"/>
-                        <segue destination="jaS-fg-NG3" kind="show" identifier="SeguewayToSep" id="aaK-PB-djy"/>
-                        <segue destination="Gt6-sq-cmF" kind="show" identifier="SeguewayToOct" id="jYr-R7-HGQ"/>
-                        <segue destination="jTo-DR-xyJ" kind="show" identifier="SeguewayToNov" id="fT3-MU-X7b"/>
-                        <segue destination="3CF-DS-MJc" kind="show" identifier="SeguewayToDec" id="GkM-e7-cCC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -142,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0nq-oZ-m2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="598" y="131"/>
+            <point key="canvasLocation" x="597.60000000000002" y="130.88455772113943"/>
         </scene>
         <!--August-->
         <scene sceneID="JSJ-9I-388">
@@ -162,8 +151,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="yd0-H5-zzN" eventType="touchUpInside" id="Ird-tq-4wc"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackAug" id="MXz-Rj-W8d"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayAug" id="MIQ-j1-wB3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -193,7 +181,7 @@
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="BackButton:" destination="R1V-ej-seg" eventType="touchUpInside" id="Yup-VZ-vht"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackFeb" id="1RX-CS-BnU"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayFeb" id="1RX-CS-BnU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -222,8 +210,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="jaS-fg-NG3" eventType="touchUpInside" id="FYQ-Aa-8uY"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackSep" id="Zv3-yV-WlI"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewaySep" id="Fwo-6n-PM9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -252,8 +239,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="vVT-jF-JIK" eventType="touchUpInside" id="yYA-tw-6tU"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackMar" id="Vjw-f9-4W0"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayMar" id="mCP-fF-eib"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -282,8 +268,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="Gt6-sq-cmF" eventType="touchUpInside" id="chM-Ii-s2X"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackOct" id="Cgj-ma-0ep"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayOct" id="RCO-Dp-xl8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -312,8 +297,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="MHl-2v-Wfs" eventType="touchUpInside" id="AoF-nL-lGh"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackApr" id="gwn-go-rzC"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayApr" id="SvA-hN-LtW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -342,8 +326,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="jTo-DR-xyJ" eventType="touchUpInside" id="0HY-Uw-NDI"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackNov" id="nZF-B2-OH7"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayNov" id="Div-1f-ObJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -372,7 +355,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackMay" id="WCh-Bl-gIM"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayMay" id="Yq7-o0-9Om"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -401,8 +384,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="3CF-DS-MJc" eventType="touchUpInside" id="90p-0M-ZWD"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackDec" id="bUf-Q5-IQf"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayDec" id="qQS-BZ-aqT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -431,8 +413,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="kZY-BZ-tub" eventType="touchUpInside" id="WzW-HW-a4F"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackJun" id="ZK1-Lg-J4e"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayJun" id="4S9-OK-Hj5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -441,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbt-6m-BBx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="598" y="3602"/>
+            <point key="canvasLocation" x="598" y="3597"/>
         </scene>
         <!--July-->
         <scene sceneID="1fv-Hy-rvB">
@@ -461,8 +442,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="oMs-g6-vVn" eventType="touchUpInside" id="eUu-Ra-dqx"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayBackJul" id="net-Do-z3r"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SeguewayJul" id="dhq-Sg-KAC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -471,10 +451,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AOU-63-XDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="598" y="4299"/>
+            <point key="canvasLocation" x="598" y="4308"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="net-Do-z3r"/>
+        <segue reference="1RX-CS-BnU"/>
     </inferredMetricsTieBreakers>
 </document>

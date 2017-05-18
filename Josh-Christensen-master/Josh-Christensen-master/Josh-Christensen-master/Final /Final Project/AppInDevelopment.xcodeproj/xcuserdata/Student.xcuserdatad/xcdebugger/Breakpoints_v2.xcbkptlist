@@ -22,7 +22,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppInDevelopment/December.swift"
@@ -56,11 +56,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppInDevelopment/ViewController.swift"
-            timestampString = "516744076.216206"
+            timestampString = "516657267.715379"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "467"
-            endingLineNumber = "467">
+            startingLineNumber = "443"
+            endingLineNumber = "443"
+            landmarkName = "ViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
