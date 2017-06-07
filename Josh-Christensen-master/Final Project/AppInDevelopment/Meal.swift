@@ -24,8 +24,10 @@ class Meal {
     }
     
     func getName() -> String {
-        return self.name;
+        return self.name
     }
     
     
 }
+
+

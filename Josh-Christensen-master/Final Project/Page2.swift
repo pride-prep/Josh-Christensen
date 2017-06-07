@@ -44,7 +44,7 @@ class Page2: UIViewController {
         Meal(name: "Tomato Soup and Quesadillas", peanuts: false, treenuts: false, vegetarian: true, both: false),
         Meal(name: "Green Bean Casserole", peanuts: false, treenuts: false, vegetarian: true, both: true),
         Meal(name: "Thai Chicken with Peanut Sauce", peanuts: true, treenuts: false, vegetarian: false, both: false),
-        Meal(name: "Lasagna ", peanuts:  false, treenuts: false, vegetarian: false, both: true),
+        Meal(name: "Lasagna", peanuts:  false, treenuts: false, vegetarian: false, both: true),
         Meal(name: "Taco Casserole", peanuts: false, treenuts: false, vegetarian: false, both: true),
         Meal(name: "Lentil Chile", peanuts: false, treenuts: false, vegetarian: true, both: false),
         Meal(name: "Loaded Baked Potatoes", peanuts: false, treenuts: false, vegetarian: false, both: true),
@@ -61,7 +61,7 @@ class Page2: UIViewController {
         Meal(name: "Prime Rib", peanuts: false, treenuts: false, vegetarian: false, both: false),
         Meal(name: "Salmon", peanuts: false, treenuts: false, vegetarian: false, both: false),
         Meal(name: "Tilapia", peanuts: false, treenuts: false, vegetarian: false, both: false),
-        Meal(name: "BLT", peanuts: false, treenuts: false, vegetarian: false, both: true),
+        Meal(name: "BLTs", peanuts: false, treenuts: false, vegetarian: false, both: true),
         Meal(name: "Philly Cheese Steak", peanuts: false, treenuts: false, vegetarian: false, both: false),
         Meal(name: "Ceaser Salad", peanuts: false, treenuts: true, vegetarian: true, both: true),
         Meal(name: "Raspberry Pork Roast", peanuts: false, treenuts: false, vegetarian: false, both: false),
@@ -70,12 +70,12 @@ class Page2: UIViewController {
         Meal(name: "Falafel", peanuts: false, treenuts: false, vegetarian: true, both: false)
         ]
 
-    var fillteredMeals: [Meal] = []
+    //var fillteredMeals: [Meal] = Meals
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //Need to filter the array of meals
-        let random = Int(arc4random_uniform(50) + 0)
+        /*let random = Int(arc4random_uniform(50) + 0)
         for meal in Meals {
             if meal.peanuts && PeanutFilter {
                 
@@ -104,9 +104,10 @@ class Page2: UIViewController {
             if meal.both {
                 fillteredMeals.append(meal)
             }
-        }
+        }*/
         
-        MealName.text = fillteredMeals[random].getName()
+        let random = Int(arc4random_uniform(50) + 0)
+        MealName.text = Meals[random].getName()
 
         
     }
@@ -118,7 +119,7 @@ class Page2: UIViewController {
     
     @IBAction func ReShuffle(_ sender: Any) {
         let random = Int(arc4random_uniform(50) + 0)
-        MealName.text = fillteredMeals[random].getName()
+        MealName.text = Meals[random].getName()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
