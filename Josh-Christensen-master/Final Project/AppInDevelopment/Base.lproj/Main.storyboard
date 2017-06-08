@@ -184,12 +184,12 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="BackButtonPage3" id="Zxj-q7-ETn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zu8-1u-H4n">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zu8-1u-H4n">
                                 <rect key="frame" x="16" y="82" width="343" height="288"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <connections>
-                                    <action selector="Recipe:" destination="wEv-Du-pUd" eventType="touchUpInside" id="mSE-Qw-CFd"/>
-                                    <action selector="RecipeFunc:" destination="wEv-Du-pUd" eventType="touchUpInside" id="hfl-MU-eQI"/>
+                                    <action selector="RecipeFunc:" destination="wEv-Du-pUd" eventType="touchUpInside" id="UG3-SX-IgK"/>
                                 </connections>
                             </button>
                         </subviews>
